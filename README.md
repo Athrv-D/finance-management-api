@@ -7,7 +7,7 @@ A backend system built using FastAPI to manage financial records with secure aut
 ##   Features
 
 ### 🔐 Authentication & Security
-- User Registration & Login (JWT आधारित authentication)
+- User Registration & Login (JWT  authentication)
 - Password hashing using bcrypt
 - Token-based authorization (Bearer token)
 
@@ -106,7 +106,7 @@ uvicorn app.main:app --reload
 
 ---
 
-### 📌 API Documentation
+## 📌 API Documentation
 
 After running server:
 
@@ -121,14 +121,14 @@ Use Swagger UI to:
 
 ---
 
-### ⚠️ Important Notes
+## ⚠️ Important Notes
 
 1.Only first registered user becomes Admin
 2.All passwords are securely hashed
 3.Duplicate users are not allowed
 
 
-### 🔑Authentication Flow
+## 🔑Authentication Flow
 
 1.Register user
 2.Login → get JWT token
